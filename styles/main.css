@@ -1,0 +1,25 @@
+@import "https://fonts.googleapis.com/css?family=Lily+Script+One";
+
+:root {
+  --bg-primary: #151618;
+  --bg-secondary: #25282c;
+  --bg-tertiary: #3f3f3f;
+  --bg-pop: tomato;
+
+  /* A creamy white */
+  --text-primary: #d1d3dc;
+  /* A minty green */
+  --text-secondary: rgb(193, 225, 209);
+  --text-tertiary: sandybrown;
+}
+
+* {
+  color: inherit;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 1rem;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
