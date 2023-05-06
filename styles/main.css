@@ -4,13 +4,17 @@
   --bg-primary: #151618;
   --bg-secondary: #25282c;
   --bg-tertiary: #3f3f3f;
-  --bg-pop: tomato;
+  --bg-pop-primary: #c8a2c8;
+  --bg-pop-secondary: #a082a0;
+  --bg-pop-tertiary: #806880;
 
   /* A creamy white */
   --text-primary: #d1d3dc;
   /* A minty green */
   --text-secondary: rgb(193, 225, 209);
-  --text-tertiary: sandybrown;
+  --text-tertiary: olive;
+
+  /* Consider tomato and sandybrown instead of lilac and olive/mint? */
 }
 
 * {
