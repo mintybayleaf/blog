@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Lily+Script+One";
 
 :root {
-  --bg-primary: #151618;
+  --bg-primary: #1b1c1e;
   --bg-secondary: #25282c;
   --bg-tertiary: #3f3f3f;
   --bg-pop-primary: #c8a2c8;
@@ -23,6 +23,7 @@
 }
 
 body {
+  margin: 0;
   padding: 1rem;
   background-color: var(--bg-primary);
   color: var(--text-primary);
