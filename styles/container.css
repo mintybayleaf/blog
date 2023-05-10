@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  gap: 1rem;
+  margin: auto;
+}
+
+.container > * {
+  flex: 1 100%;
+}
+
+.top {
+  order: 1;
+}
+
+.middle {
+  order: 2;
+}
+
+.bottom {
+  order: 3;
+}

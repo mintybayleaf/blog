@@ -6,31 +6,27 @@
     <meta name="author" content="mintybayleaf" />
     <meta name="description" content="A software engineer's blog" />
     <title>Tales of a Bayleaf</title>
+    <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/container.css" />
   </head>
-  <body>
-    <header>
+  <body class="container">
+    <header class="top">
       <h1>Tales of a Bayleaf</h1>
     </header>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">About</a>
-        </li>
-        <li>
-          <a href="#">Portfolio</a>
-        </li>
-        <li>
-          <a href="#">Blog</a>
-        </li>
-        <li>
-          <a href="#">Bayisms</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <main>Hello!</main>
+    <main class="middle">
+      <nav>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Bayisms</a>
+        <a href="#">Contact</a>
+      </nav>
+    </main>
+    <footer id="footer" class="bottom"></footer>
   </body>
+  <script defer>
+    const footer = document.getElementById("footer");
+    footer.innerHTML = `<span>Pokesite &#169; Bailey Kocin ${new Date().getFullYear()}</span>`;
+  </script>
 </html>

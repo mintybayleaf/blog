@@ -1,30 +1,48 @@
-@import "https://fonts.googleapis.com/css?family=Lily+Script+One";
-
-:root {
-  --bg-primary: #1b1c1e;
-  --bg-secondary: #25282c;
-  --bg-tertiary: #3f3f3f;
-  --bg-pop-primary: #c8a2c8;
-  --bg-pop-secondary: #a082a0;
-  --bg-pop-tertiary: #806880;
-
-  /* A creamy white */
-  --text-primary: #d1d3dc;
-  /* A minty green */
-  --text-secondary: rgb(193, 225, 209);
-  --text-tertiary: olive;
-
-  /* Consider tomato and sandybrown instead of lilac and olive/mint? */
-}
-
-* {
-  color: inherit;
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
   padding: 1rem;
   background-color: var(--bg-primary);
   color: var(--text-primary);
+  width: min(100ch, 100vw - 1rem);
+  height: 100vh;
+  margin: auto;
+}
+
+header h1 {
+  font-family: "Lily Script One";
+  text-shadow: 0 5px 10px var(--text-secondary);
+}
+
+main nav {
+  width: min(40ch, 100vw - 1rem);
+  height: min(40ch, 60vh);
+  margin: auto;
+  border-radius: 50%;
+  background-color: var(--bg-pop-primary);
+  color: var(--text-primary);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+nav a {
+  display: block;
+  font-size: 1.5rem;
+  padding: 0.5em;
+}
+
+nav {
+  transition: all 1.2s ease-in-out;
+  color: var(--te);
+}
+
+nav:hover {
+  background-color: var(--bg-pop-secondary);
+  transform: scale(1.1);
+}
+
+footer {
+  font-family: "Lily Script One";
+  text-shadow: 0 5px 10px var(--text-secondary);
+  font-size: 1.5rem;
 }
