@@ -1,48 +1,51 @@
 body {
-  padding: 1rem;
-  background-color: var(--bg-primary);
-  color: var(--text-primary);
-  width: min(100ch, 100vw - 1rem);
-  height: 100vh;
-  margin: auto;
+  background-color: var(--gray);
+  color: var(--creamy-white);
+  min-height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-header h1 {
+h1 {
   font-family: "Lily Script One";
-  text-shadow: 0 5px 10px var(--text-secondary);
+  text-shadow: 0 5px 10px var(--lilac-two);
+  font-size: 3rem;
 }
 
-main nav {
+main {
+  padding: 1em;
+}
+
+.nav {
   width: min(40ch, 100vw - 1rem);
   height: min(40ch, 60vh);
   margin: auto;
-  border-radius: 50%;
-  background-color: var(--bg-pop-primary);
-  color: var(--text-primary);
+  border-radius: 20%;
+  background-color: var(--lilac);
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   justify-content: center;
+  transition: all 0.9s ease-in-out;
+  color: var(--gray);
+  box-shadow: 0 0 10px 10px var(--lilac-two);
 }
 
-nav a {
+.nav-item {
   display: block;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding: 0.5em;
+  transition: transform 0.6s ease-in-out;
 }
 
-nav {
-  transition: all 1.2s ease-in-out;
-  color: var(--te);
+.nav-item:hover {
+  transform: scale(1.2);
+  background-color: var(--rose-quartz);
+  border-radius: 30%;
 }
 
 nav:hover {
-  background-color: var(--bg-pop-secondary);
+  background-color: var(--lilac-two);
+  box-shadow: 0 0 10px 10px var(--lilac);
   transform: scale(1.1);
-}
-
-footer {
-  font-family: "Lily Script One";
-  text-shadow: 0 5px 10px var(--text-secondary);
-  font-size: 1.5rem;
 }

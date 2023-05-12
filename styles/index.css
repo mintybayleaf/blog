@@ -1,20 +1,14 @@
 @import "https://fonts.googleapis.com/css?family=Lily+Script+One";
 
 :root {
-  --bg-primary: #1b1c1e;
-  --bg-secondary: #25282c;
-  --bg-tertiary: #3f3f3f;
-  --bg-pop-primary: #a082a0;
-  --bg-pop-secondary: #a082a0;
-  --bg-pop-tertiary: #806880;
-
-  /* A creamy white */
-  --text-primary: #d1d3dc;
-  /* A minty green */
-  --text-secondary: sandybrown;
-  --text-tertiary: black;
-
-  /* Consider tomato and sandybrown instead of lilac and olive/mint? */
+  --gray: #1b1c1e;
+  --gray-two: #25282c;
+  --gray-three: #3f3f3f;
+  --lilac: #a082a0;
+  --lilac-two: #856a85;
+  --creamy-white: #d1d3dc;
+  --black: black;
+  --rose-quartz: #ffc0cb;
 }
 
 * {
